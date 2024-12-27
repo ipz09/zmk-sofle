@@ -27,6 +27,15 @@
         };
     };
 
+    macros {
+        CT: CT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(C) &kp LC(V)>;
+            label = "CT";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
