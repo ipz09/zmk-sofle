@@ -38,14 +38,14 @@
         merah: WARNA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp TAB>;
+            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H)>;
             label = "WARNA";
         };
 
         kuning: kuning {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &kp U &kp N &kp I &kp N &kp G &kp TAB>;
+            bindings = <&kp K &kp U &kp N &kp I &kp N &kp G>;
             label = "KUNING";
         };
 
@@ -66,63 +66,63 @@
         cyan: cyan {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp C &kp Y &kp A &kp N &kp TAB>;
+            bindings = <&kp C &kp Y &kp A &kp N>;
             label = "CYAN";
         };
 
         ungu: ungu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp G &kp U &kp TAB>;
+            bindings = <&kp U &kp N &kp G &kp U>;
             label = "UNGU";
         };
 
         tosca: tosca {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp T &kp O &kp S &kp C &kp A &kp TAB>;
+            bindings = <&kp T &kp O &kp S &kp C &kp A>;
             label = "TOSCA";
         };
 
         orange: orange {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp O &kp R &kp A &kp N &kp G &kp E &kp TAB>;
+            bindings = <&kp O &kp R &kp A &kp N &kp G &kp E>;
             label = "ORANGE";
         };
 
         abu: abu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp B &kp U &kp TAB>;
+            bindings = <&kp A &kp B &kp U>;
             label = "ABU";
         };
 
         putih: putih {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp U &kp T &kp I &kp H &kp TAB>;
+            bindings = <&kp P &kp U &kp T &kp I &kp H>;
             label = "PUTIH";
         };
 
         gold: gold {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp O &kp L &kp D &kp TAB>;
+            bindings = <&kp G &kp O &kp L &kp D>;
             label = "GOLD";
         };
 
         hitam: hitam {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &kp I &kp T &kp A &kp M &kp TAB>;
+            bindings = <&kp H &kp I &kp T &kp A &kp M>;
             label = "HITAM";
         };
 
         pink: pink {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp P &kp I &kp N &kp K &kp TAB>;
+            bindings = <&kp P &kp I &kp N &kp K>;
             label = "PINK";
         };
     };
