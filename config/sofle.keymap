@@ -35,11 +35,95 @@
             label = "CT";
         };
 
+        merah: WARNA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp TAB>;
+            label = "WARNA";
+        };
+
+        kuning: kuning {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp U &kp N &kp I &kp N &kp G &kp TAB>;
+            label = "KUNING";
+        };
+
+        hijau: hijau {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp I &kp J &kp A &kp U>;
+            label = "HIJAU";
+        };
+
+        biru: biru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp I &kp R &kp U &kp TAB>;
+            label = "BIRU";
+        };
+
+        cyan: cyan {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp Y &kp A &kp N &kp TAB>;
+            label = "CYAN";
+        };
+
+        ungu: ungu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp N &kp G &kp U &kp TAB>;
+            label = "UNGU";
+        };
+
+        tosca: tosca {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp O &kp S &kp C &kp A &kp TAB>;
+            label = "TOSCA";
+        };
+
+        orange: orange {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp R &kp A &kp N &kp G &kp E &kp TAB>;
+            label = "ORANGE";
+        };
+
+        abu: abu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp B &kp U &kp TAB>;
+            label = "ABU";
+        };
+
+        putih: putih {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp U &kp T &kp I &kp H &kp TAB>;
+            label = "PUTIH";
+        };
+
+        gold: gold {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp O &kp L &kp D &kp TAB>;
+            label = "GOLD";
+        };
+
         hitam: hitam {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp I &kp T &kp A &kp M &kp TAB>;
             label = "HITAM";
+        };
+
+        pink: pink {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp I &kp N &kp K &kp TAB>;
+            label = "PINK";
         };
     };
 
@@ -47,8 +131,68 @@
         compatible = "zmk,combos";
 
         CAPSLOX {
+            bindings = <&merah>;
+            key-positions = <48 49>;
+        };
+
+        kuning {
+            bindings = <&kuning>;
+            key-positions = <35 34>;
+        };
+
+        hijau {
+            bindings = <&hijau>;
+            key-positions = <22 23>;
+        };
+
+        biru {
+            bindings = <&biru>;
+            key-positions = <10 11>;
+        };
+
+        cyan {
+            bindings = <&cyan>;
+            key-positions = <48 47>;
+        };
+
+        ungu {
+            bindings = <&ungu>;
+            key-positions = <34 33>;
+        };
+
+        tosca {
+            bindings = <&tosca>;
+            key-positions = <22 21>;
+        };
+
+        orange {
+            bindings = <&orange>;
+            key-positions = <10 9>;
+        };
+
+        abu {
+            bindings = <&abu>;
+            key-positions = <58 59>;
+        };
+
+        putih {
+            bindings = <&putih>;
+            key-positions = <47 46>;
+        };
+
+        hitam {
             bindings = <&hitam>;
-            key-positions = <34 35>;
+            key-positions = <33 32>;
+        };
+
+        gold {
+            bindings = <&gold>;
+            key-positions = <21 20>;
+        };
+
+        pink {
+            bindings = <&pink>;
+            key-positions = <8 9>;
         };
     };
 
