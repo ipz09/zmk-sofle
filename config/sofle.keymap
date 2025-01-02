@@ -59,7 +59,7 @@
         biru: biru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp B &kp I &kp R &kp U &kp TAB>;
+            bindings = <&kp B &kp I &kp R &kp U>;
             label = "BIRU";
         };
 
