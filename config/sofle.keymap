@@ -125,6 +125,76 @@
             bindings = <&kp P &kp I &kp N &kp K>;
             label = "PINK";
         };
+
+        PINKUNGU: PINKUNGU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp LS(I) &kp LS(N) &kp LS(K) &kp SPACE &kp LS(U) &kp LS(N) &kp LS(G) &kp LS(U)>;
+            label = "PINKUNGU";
+        };
+
+        CYANUNGU: CYANUNGU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N) &kp SPACE &kp LS(U) &kp LS(N) &kp LS(G) &kp LS(U)>;
+            label = "CYANUNGU";
+        };
+
+        MERAHBIRU: MERAHBIRU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
+            label = "MERAHBIRU";
+        };
+
+        MERAHKUNING: MERAHKUNING {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
+            label = "MERAHKUNING";
+        };
+
+        BIRUCYAN: BIRUCYAN {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U) &kp SPACE &kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N)>;
+            label = "BIRUCYAN";
+        };
+
+        ORANGEBIRU: ORANGEBIRU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(O) &kp LS(R) &kp LS(A) &kp LS(N) &kp LS(G) &kp LS(E) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
+            label = "ORANGEBIRU";
+        };
+
+        HIJAUBIRU: HIJAUBIRU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp LS(I) &kp LS(J) &kp LS(A) &kp LS(U) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
+            label = "HIJAUBIRU";
+        };
+
+        HIJAUKUNING: HIJAUKUNING {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp LS(I) &kp LS(J) &kp LS(A) &kp LS(U) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
+            label = "HIJAUKUNING";
+        };
+
+        CYANKUNING: CYANKUNING {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
+            label = "CYANKUNING";
+        };
+
+        PINKKUNING: PINKKUNING {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp LS(I) &kp LS(N) &kp LS(K) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
+            label = "PINKKUNING";
+        };
     };
 
     combos {
@@ -193,6 +263,56 @@
         pink {
             bindings = <&pink>;
             key-positions = <8 9>;
+        };
+
+        PINKUNGU {
+            bindings = <&PINKUNGU>;
+            key-positions = <23 11>;
+        };
+
+        CYANUNGU {
+            bindings = <&CYANUNGU>;
+            key-positions = <22 10>;
+        };
+
+        MERAHBIRU {
+            bindings = <&MERAHBIRU>;
+            key-positions = <21 9>;
+        };
+
+        MERAHKUNNG {
+            bindings = <&MERAHKUNING>;
+            key-positions = <20 8>;
+        };
+
+        BIRUCYAN {
+            bindings = <&BIRUCYAN>;
+            key-positions = <19 7>;
+        };
+
+        HIJAUBIRU {
+            bindings = <&HIJAUBIRU>;
+            key-positions = <18 6>;
+        };
+
+        HIJAUKUNING {
+            bindings = <&HIJAUKUNING>;
+            key-positions = <35 23>;
+        };
+
+        ORANGEBIRU {
+            bindings = <&ORANGEBIRU>;
+            key-positions = <34 22>;
+        };
+
+        CYANKUNING {
+            bindings = <&CYANKUNING>;
+            key-positions = <33 21>;
+        };
+
+        PINKKUNING {
+            bindings = <&PINKKUNING>;
+            key-positions = <32 20>;
         };
     };
 
