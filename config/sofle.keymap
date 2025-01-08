@@ -38,7 +38,7 @@
         merah: WARNA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H)>;
+            bindings = <&kp M &kp E &kp R &kp A &kp H>;
             label = "WARNA";
         };
 
@@ -200,11 +200,6 @@
     combos {
         compatible = "zmk,combos";
 
-        CAPSLOX {
-            bindings = <&merah>;
-            key-positions = <48 49>;
-        };
-
         kuning {
             bindings = <&kuning>;
             key-positions = <35 34>;
@@ -313,6 +308,11 @@
         PINKKUNING {
             bindings = <&PINKKUNING>;
             key-positions = <32 20>;
+        };
+
+        merah {
+            bindings = <&merah>;
+            key-positions = <48 49>;
         };
     };
 
