@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define BASE 0
@@ -196,13 +195,6 @@
             bindings = <&kp LS(P) &kp LS(I) &kp LS(N) &kp LS(K) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
             label = "PINKKUNING";
         };
-
-        new_macroQ: new_macroQ {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp LS(A) &kp LS(B) &kp LS(I) &kp LS(A) &kp LS(K) &kp SPACE &kp LS(B) &kp LS(U) &kp LS(R) &kp LS(U) &kp LS(A) &kp LS(N) &kp LS(G) &kp TAB &kt LS(TAB) &kp ESCAPE>;
-            label = "NEW_MACROQ";
-        };
     };
 
     combos {
@@ -321,11 +313,6 @@
         merah {
             bindings = <&merah>;
             key-positions = <48 49>;
-        };
-
-        TES {
-            bindings = <&new_macroQ>;
-            key-positions = <18 17>;
         };
     };
 
