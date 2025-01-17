@@ -200,7 +200,7 @@
         new_macroQ: new_macroQ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp LS(A) &kp LS(B) &kp LS(I) &kp LS(A) &kp LS(K) &kp SPACE &kp LS(B) &kp LS(U) &kp LS(R) &kp LS(U) &kp LS(A) &kp LS(N) &kp LS(G) &kp TAB &kt LS(TAB)>;
+            bindings = <&kp LS(B) &kp LS(A) &kp LS(B) &kp LS(I) &kp LS(A) &kp LS(K) &kp SPACE &kp LS(B) &kp LS(U) &kp LS(R) &kp LS(U) &kp LS(A) &kp LS(N) &kp LS(G) &kp TAB &kt LS(TAB) &kp ESCAPE>;
             label = "NEW_MACROQ";
         };
     };
