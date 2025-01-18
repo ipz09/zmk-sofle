@@ -199,7 +199,7 @@
         copypaste: copypaste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&copypaste>;
+            bindings = <&kp LC(C) &kp LC(V)>;
             label = "COPYPASTE";
         };
     };
