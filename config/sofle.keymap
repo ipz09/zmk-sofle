@@ -204,7 +204,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        PGUP {
+            bindings = <&kp PG_DN>;
+            key-positions = <35 48>;
+        };
+
+        PGUP {
+            bindings = <&kp PG_UP>;
+            key-positions = <34 47>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
