@@ -216,6 +216,11 @@
             bindings = <&kp PG_UP>;
             key-positions = <34 47>;
         };
+
+        CPSLCK {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <0 1>;
+        };
     };
 
     keymap {
@@ -232,7 +237,7 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp CAPSLOCK    &kp N1  &kp N2    &kp N3    &kp N4          &kp N5                           &kp N6      &kp N7     &kp N8          &kp N9           &kp N0    &kp BACKSPACE
+&kp BACKSPACE   &kp N1  &kp N2    &kp N3    &kp N4          &kp N5                           &kp N6      &kp N7     &kp N8          &kp N9           &kp N0    &kp BACKSPACE
 &kp TAB         &kp Q   &kp W     &kp E     &kp R           &kp T                            &kp Y       &kp U      &kp I           &kp O            &kp P     &kp DELETE
 &kp LEFT_SHIFT  &kp A   &kp S     &kp D     &kp F           &kp G                            &kp H       &kp J      &kp K           &kp L            &kp F2    &kp ENTER
 &kp LCTRL       &kp Z   &kp X     &kp C     &kp V           &kp B   &kp C_MUTE    &kp F5     &kp N       &kp M      &kp COMMA       &kp DOT          &kp FSLH  &kp F12
