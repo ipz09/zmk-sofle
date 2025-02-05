@@ -41,13 +41,6 @@
             bindings = <&kp LC(C) &kp LC(V)>;
             label = "COPYPASTE";
         };
-
-        MN: MINUS {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT &kp KP_MINUS &kp ENTER>;
-            label = "MINUS";
-        };
     };
 
     combos {
