@@ -35,172 +35,18 @@
             label = "CT";
         };
 
-        merah: WARNA {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp M &kp E &kp R &kp A &kp H>;
-            label = "WARNA";
-        };
-
-        kuning: kuning {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp U &kp N &kp I &kp N &kp G>;
-            label = "KUNING";
-        };
-
-        hijau: hijau {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp H &kp I &kp J &kp A &kp U>;
-            label = "HIJAU";
-        };
-
-        biru: biru {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp B &kp I &kp R &kp U>;
-            label = "BIRU";
-        };
-
-        cyan: cyan {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp C &kp Y &kp A &kp N>;
-            label = "CYAN";
-        };
-
-        ungu: ungu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp G &kp U>;
-            label = "UNGU";
-        };
-
-        tosca: tosca {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp O &kp S &kp C &kp A>;
-            label = "TOSCA";
-        };
-
-        orange: orange {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp O &kp R &kp A &kp N &kp G &kp E>;
-            label = "ORANGE";
-        };
-
-        abu: abu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A &kp B &kp U>;
-            label = "ABU";
-        };
-
-        putih: putih {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp U &kp T &kp I &kp H>;
-            label = "PUTIH";
-        };
-
-        gold: gold {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp G &kp O &kp L &kp D>;
-            label = "GOLD";
-        };
-
-        hitam: hitam {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp H &kp I &kp T &kp A &kp M>;
-            label = "HITAM";
-        };
-
-        pink: pink {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp P &kp I &kp N &kp K>;
-            label = "PINK";
-        };
-
-        PINKUNGU: PINKUNGU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp LS(I) &kp LS(N) &kp LS(K) &kp SPACE &kp LS(U) &kp LS(N) &kp LS(G) &kp LS(U)>;
-            label = "PINKUNGU";
-        };
-
-        CYANUNGU: CYANUNGU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N) &kp SPACE &kp LS(U) &kp LS(N) &kp LS(G) &kp LS(U)>;
-            label = "CYANUNGU";
-        };
-
-        MERAHBIRU: MERAHBIRU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
-            label = "MERAHBIRU";
-        };
-
-        MERAHKUNING: MERAHKUNING {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp LS(E) &kp LS(R) &kp LS(A) &kp LS(H) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
-            label = "MERAHKUNING";
-        };
-
-        BIRUCYAN: BIRUCYAN {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U) &kp SPACE &kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N)>;
-            label = "BIRUCYAN";
-        };
-
-        ORANGEBIRU: ORANGEBIRU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(O) &kp LS(R) &kp LS(A) &kp LS(N) &kp LS(G) &kp LS(E) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
-            label = "ORANGEBIRU";
-        };
-
-        HIJAUBIRU: HIJAUBIRU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp LS(I) &kp LS(J) &kp LS(A) &kp LS(U) &kp SPACE &kp LS(B) &kp LS(I) &kp LS(R) &kp LS(U)>;
-            label = "HIJAUBIRU";
-        };
-
-        HIJAUKUNING: HIJAUKUNING {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp LS(I) &kp LS(J) &kp LS(A) &kp LS(U) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
-            label = "HIJAUKUNING";
-        };
-
-        CYANKUNING: CYANKUNING {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp LS(Y) &kp LS(A) &kp LS(N) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
-            label = "CYANKUNING";
-        };
-
-        PINKKUNING: PINKKUNING {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp LS(I) &kp LS(N) &kp LS(K) &kp SPACE &kp LS(K) &kp LS(U) &kp LS(N) &kp LS(I) &kp LS(N) &kp LS(G)>;
-            label = "PINKKUNING";
-        };
-
         copypaste: copypaste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LC(C) &kp LC(V)>;
             label = "COPYPASTE";
+        };
+
+        MINUS: MINUS {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT &kp KP_MINUS &kp ENTER>;
+            label = "MINUS";
         };
     };
 
