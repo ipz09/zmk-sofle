@@ -45,7 +45,7 @@
         time1: time1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A>, <&macro_tap_time 5000>, <&kp D>;
+            bindings = <&kp A>, <&macro_wait_time 5000>, <&kp D>;
 
             label = "TIME1";
         };
