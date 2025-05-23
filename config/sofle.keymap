@@ -41,6 +41,14 @@
             bindings = <&kp LEFT &kp MINUS &kp ENTER>;
             label = "IP";
         };
+
+        time1: time1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&macro_wait_time 500>, <&kp D>;
+
+            label = "TIME1";
+        };
     };
 
     combos {
@@ -70,7 +78,7 @@
 &kp TAB         &kp Q   &kp W     &kp E     &kp R           &kp T                            &kp Y        &kp U   &kp I      &kp O      &kp P     &kp DELETE
 &kp LEFT_SHIFT  &kp A   &kp S     &kp D     &kp F           &kp G                            &kp H        &kp J   &kp K      &kp L      &kp F2    &kp ENTER
 &kp LCTRL       &kp Z   &kp X     &kp C     &kp V           &kp B   &kp C_MUTE    &kp F5     &kp N        &kp M   &kp COMMA  &kp DOT    &kp FSLH  &kp F12
-                        &kp LGUI  &kp LALT  &studio_unlock  &ECT    &kp SPACE     &kp SPACE  &kp KP_PLUS  &ip     &kp PG_UP  &kp PG_DN
+                        &kp LGUI  &kp LALT  &studio_unlock  &ECT    &kp SPACE     &kp SPACE  &kp KP_PLUS  &time1  &kp PG_UP  &kp PG_DN
             >;
 
             sensor-bindings =
