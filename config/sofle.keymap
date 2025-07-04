@@ -38,16 +38,8 @@
         ip: ip {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT &kp MINUS &kp ENTER>;
+            bindings = <&kp COMMA &kp LEFT &kp MINUS &kp ENTER>;
             label = "IP";
-        };
-
-        time1: time1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A>, <&macro_wait_time 5000>, <&kp D>;
-
-            label = "TIME1";
         };
     };
 
