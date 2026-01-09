@@ -39,15 +39,8 @@
         minusx: minusx {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT &kp MINUS &kp ENTER>;
+            bindings = <&kp LEFT &kp MINUS &kp ENTER &kp COMMA>;
             label = "MINUSX";
-        };
-
-        new_macro1xx: new_macro1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_ARROW &kp MINUS &kp ENTER>;
-            label = "NEW_MACRO1";
         };
     };
 
