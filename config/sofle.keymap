@@ -43,7 +43,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        ff {
+            bindings = <&caps_word>;
+            key-positions = <1 15>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
