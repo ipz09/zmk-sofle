@@ -38,7 +38,7 @@
         ip: ip {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT &kp MINUS &kp ENTER>;
+            bindings = <&kp LEFT &kp MINUS &kp ENTER &kp COMMA &kp ENTER>;
             label = "IP";
         };
     };
